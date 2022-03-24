@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.container div {
+    width: 335px;
+    height: 431.18px;
+    margin: 5px;
+}
+
+h3, p {
+
+    margin-left: 20px;
+
+    color: white;
+}
+
+h3 {
+    margin-top: 310px;
+}
+
+.img-1 {
+    background: url("../imagens/6.jpg") center center no-repeat;
+}
+
+.img-2 {
+    background: url("../imagens/3.jpg") center center no-repeat;
+}
+
+.img-3 {
+    background: url("../imagens/4.jpg") center center no-repeat;
+}
+
+.img-4 {
+    background: url("../imagens/5.jpg") center center no-repeat;
+}
+
+@media (max-width: 850px) {
+    div {
+        align-items: center;
+        justify-content: center;
+    }
+}

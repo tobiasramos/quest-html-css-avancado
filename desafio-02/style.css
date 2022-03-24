@@ -1,0 +1,77 @@
+.container {
+    width: 676px;
+    height: 377px;
+    margin: 50px auto;
+    display: grid;
+    grid:
+        "video-principal propaganda"
+        "video-principal videos";
+}
+
+
+.video-principal {
+    grid-area: video-principal;
+    width: 326px;
+
+}
+
+.propaganda {
+    grid-area: propaganda;
+    width: 270px;
+    height: 56px;
+    margin-right: 40px;
+
+
+    text-align: center;
+
+    background-color: #C4C4C4;
+}
+
+
+.videos {
+    grid-area: videos;
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.informacoes {
+    margin: 5px;
+}
+
+.informacoes h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.informacoes h2 {
+    margin-bottom: 2px;
+    margin-top: 8px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.informacoes p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #000000;
+}
